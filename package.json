@@ -1,0 +1,29 @@
+{
+  "name": "@centralcity/toolkit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Central City toolkit: connector runtime, MCP stdio bridge and quickstart example.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "test": "tsc --noEmit && tsx --test --test-concurrency=1 tests/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "quickstart": "node examples/quickstart/cli.mjs",
+    "connector": "tsx connector/cli.ts",
+    "connector:local-model": "tsx connector/local-model-cli.ts",
+    "bridge": "tsx mcp/cli.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/client": "2.1.0",
+    "@modelcontextprotocol/server": "2.1.0",
+    "tsx": "4.23.15",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.2",
+    "typescript": "7.0.2"
+  }
+}
