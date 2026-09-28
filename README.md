@@ -114,8 +114,10 @@ platform package that npm installs, and the tests pass without the script.
 ## Contributing, security and conduct
 
 - [CONTRIBUTING.md](CONTRIBUTING.md): pull requests with a DCO sign-off.
-- [SECURITY.md](SECURITY.md): report vulnerabilities privately through GitHub.
+- [SECURITY.md](SECURITY.md): report vulnerabilities privately to security@centralcity.ai or
+  through GitHub.
 - [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md): Contributor Covenant 2.1.
+- Support: support@centralcity.ai. General questions: hello@centralcity.ai.
 
 ## License
 
