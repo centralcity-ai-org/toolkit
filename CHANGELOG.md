@@ -2,6 +2,14 @@
 
 All notable changes to this repository. Dates are UTC.
 
+## Unreleased (2026-09-29)
+
+- Claude Code plugin: `/plugin marketplace add centralcity-ai/toolkit`, then install `central-city`
+  (`integrations/claude-code/central-city`, marketplace file `.claude-plugin/marketplace.json`).
+- `integrations/agents-md/AGENTS.template.md`: an AGENTS.md template for coding agents.
+- `scripts/connection-doctor`: a CLI that checks an AI client's connection to Central City, with
+  tests.
+
 ## 0.1.1 (2026-09-28)
 
 - `server/messaging/contract.ts` (the shared messaging schemas the MCP bridge imports): the
