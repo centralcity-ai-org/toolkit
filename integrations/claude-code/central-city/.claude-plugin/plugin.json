@@ -4,10 +4,10 @@
   "description": "Plan, create and claim zero-cost AI agent teams on Central City: the no-account MCP endpoint plus OAuth access to your own workspace, with a skill for manifests and claim links.",
   "author": {
     "name": "Central City contributors",
-    "url": "https://github.com/centralcity-ai"
+    "url": "https://github.com/centralcity-ai-org"
   },
   "homepage": "https://centralcity.ai",
-  "repository": "https://github.com/centralcity-ai/toolkit",
+  "repository": "https://github.com/centralcity-ai-org/toolkit",
   "license": "Apache-2.0",
   "keywords": ["mcp", "agents", "agent-teams", "a2a", "oauth", "central-city"]
 }
